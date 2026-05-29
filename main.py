@@ -5,7 +5,7 @@ import pandas as pd
 app = FastAPI()
 
 # Model ve sütunlar
-model = joblib.load("gb_model.pkl")
+model = joblib.load("model.pkl")
 columns = joblib.load("model_columns.pkl")
 
 
